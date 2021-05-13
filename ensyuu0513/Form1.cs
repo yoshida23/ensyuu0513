@@ -17,5 +17,19 @@ namespace ensyuu0513
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Left = 150;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Visible = false;
+        }
     }
 }
